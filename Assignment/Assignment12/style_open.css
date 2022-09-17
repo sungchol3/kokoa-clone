@@ -1,5 +1,129 @@
 html, body {
-    height: 100%;
-    width: 100%;
-  }
-  
+  height: 100%;
+  width: 100%;
+}
+p {
+  line-height: 10px;
+}
+header {
+  display: flex;
+  margin: 100px, 0px;
+  padding-top: 25px;
+}
+
+.header__back {
+  width: 90%;
+  padding-left: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__list {
+  width: auto;
+  padding-right: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.artist__picture {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.artist__picture>img {
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+}
+
+.artist__name {
+  display: flex;
+  justify-content: center;
+}
+
+.artist__tag {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button__shuffle>button, .button__like>button {
+  font-size: 20px;
+}
+
+.song_list__song {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0px 0px 40px;
+}
+.song_list__song__pic {
+  width: 20%;
+}
+.song_list__song__pic > img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10%;
+}
+.song_list__song__info {
+  width: 70%;
+}
+.song_list__song__info__singer{
+  color: gray;
+  font-size: 100%;
+}
+.song_list__song__info__songname{
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+}
+.song_list__song__detail {
+  width: 10%;
+}
+
+#wrap {
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 10vh;
+}
+footer {
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+}
+.playlist {
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+  border: solid black 2px;
+  border-radius: 50px;
+  width: 90%;
+}
+.playlist__info {
+  width: 70%;
+  padding-left: 10%;
+}
+.playlist__info__singer {
+  color: gray;
+  font-size: 100%;
+}
+.playlist__info__songname {
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+}
+.playlist__button {
+  display: flex;
+  width: 30%;
+  padding-right: 10%;
+  justify-content: space-between;
+}
