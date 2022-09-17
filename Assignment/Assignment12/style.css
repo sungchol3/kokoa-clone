@@ -54,3 +54,33 @@ header {
 .button__shuffle>button, .button__like>button {
   font-size: 20px;
 }
+
+.song_list__song {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0px 0px 40px;
+}
+.song_list__song__pic {
+  width: 20%;
+}
+.song_list__song__pic > img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10%;
+}
+.song_list__song__info {
+  width: 70%;
+}
+.song_list__song__info__singer{
+  color: gray;
+  font-size: 100%;
+}
+.song_list__song__info__songname{
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+}
+.song_list__song__detail {
+  width: 10%;
+}
