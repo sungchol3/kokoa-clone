@@ -1,8 +1,10 @@
 html, body {
   height: 100%;
   width: 100%;
-  }
-
+}
+p {
+  line-height: 10px;
+}
 header {
   display: flex;
   margin: 100px, 0px;
@@ -88,10 +90,40 @@ header {
 #wrap {
   height: auto;
   min-height: 100%;
-  padding-bottom: (footer height);
+  padding-bottom: 10vh;
 }
 footer {
-  height: (footer height);
+  height: 10vh;
+  width: 100%;
   position: relative;
   transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+}
+.playlist {
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+  border: solid black 2px;
+  border-radius: 50px;
+  width: 90%;
+}
+.playlist__info {
+  width: 70%;
+  padding-left: 10%;
+}
+.playlist__info__singer {
+  color: gray;
+  font-size: 100%;
+}
+.playlist__info__songname {
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+}
+.playlist__button {
+  display: flex;
+  width: 30%;
+  padding-right: 10%;
+  justify-content: space-between;
 }
