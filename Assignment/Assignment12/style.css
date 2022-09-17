@@ -1,38 +1,48 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    }
-  
-  header {
-    display: flex;
-    margin: 100px, 0px;
-    padding-top: 25px;
+  height: 100%;
+  width: 100%;
   }
-  
-  .header__back {
-    width: 90%;
-    padding-left: 30px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .header__search {
-    width: auto;
-    padding-right: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .artist__picture {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-  }
-  .artist__picture>img {
-    border-radius: 50%;
-    width: 20vh;
-    height: 20vh;
-  }
+
+header {
+  display: flex;
+  margin: 100px, 0px;
+  padding-top: 25px;
+}
+
+.header__back {
+  width: 90%;
+  padding-left: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__search {
+  width: auto;
+  padding-right: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.artist__picture {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.artist__picture>img {
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+}
+
+.artist__name {
+  display: flex;
+  justify-content: center;
+}
+
+.artist__tag {
+  display: flex;
+  justify-content: center;
+}
