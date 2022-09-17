@@ -41,7 +41,6 @@ header {
 .info {
   width: 100%;
   display: flex;
-  justify-content: center;
 }
 .info__songname {
   font-size: 150%;
